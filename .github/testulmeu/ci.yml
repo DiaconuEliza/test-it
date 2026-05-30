@@ -1,0 +1,5 @@
+- name: Show system info
+  run: |
+    uname -a
+    pwd
+    ls-la
