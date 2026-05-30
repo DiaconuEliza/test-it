@@ -3,12 +3,12 @@ on:
   push:
 jobs:
   test:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
   
   steps:
     - name: Hello
-    - uses: actions/checkout@v4
+      uses: actions/checkout@v4
 
     - name: Test
     
-run: echo "CI merge"
+      run: echo "CI merge"
