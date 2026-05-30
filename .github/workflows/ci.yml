@@ -4,10 +4,11 @@ on:
 jobs:
   test:
   runs-on: ubuntu-latest
+  
   steps:
-    -name: Hello
-    -uses: actions/checkout@v4
+    - name: Hello
+    - uses: actions/checkout@v4
 
-    -name: Test
+    - name: Test
     
 run: echo "CI merge"
