@@ -1,5 +1,6 @@
 name: Primul meu CI
-on: [push]branch_protection_rule: 
+on: 
+push:
 jobs:
 test:
 runs-on:ubuntu-latest
