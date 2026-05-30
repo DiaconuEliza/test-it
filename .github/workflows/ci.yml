@@ -5,7 +5,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
   
-  steps:
+    steps:
     - name: Hello
       uses: actions/checkout@v4
 
