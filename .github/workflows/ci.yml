@@ -1,0 +1,9 @@
+name: Primul meu CI
+on: [push]branch_protection_rule: 
+jobs:
+test:
+runs-on:ubuntu-latest
+steps:
+-uses: actions/checkout@v4
+-name: Hello
+run: echo "CI merge"
